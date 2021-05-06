@@ -14,9 +14,7 @@
 
 body {
 
-/*  background: linear-gradient(to top right, magenta 0%, hotpink 100%);*/
-/* background-color: rgba(229,230,232,0.6);*/
-  /*box-shadow: 5px 5px 100px 5px rgba(255,255,255,.8);*/
+
   color: #555;
   background: var(--bgcolor);
   background-size: cover;
@@ -27,7 +25,7 @@ body {
 
 .resume{
   width: 8.5in;
-  height: 135vh;
+  height: 9.5in;
 /*  width: 800px;
   height: auto;*/
   border-radius: 5px;
@@ -333,7 +331,6 @@ margin-top: -10px;
 font-size: 13px;
 }
 
-
 .projGAP{
   margin-bottom: 10px;
 }
@@ -450,9 +447,10 @@ font-weight: bold;
   color: black;
   display: inline;
   font-size: 14px;
-  margin-left: 50px;
 }
-
+.lang ul{
+        margin-left: 50px;
+}
 
 .langcircle{
 float: right;
@@ -524,20 +522,16 @@ margin-right: 120px;
   text-align: center;
 }
 
-.ref{
-
-
-}
 .refLi{
 
   color: black;
-  font-size: 14px;
+  font-size: 16px;
 }
 .refdes{
   margin-top: 5px;
   color: black;
 display: block;
-font-size: 13px;
+font-size: 14px;
 font-style: italic;
 }
 .refcon{
@@ -552,7 +546,7 @@ font-style: italic;
 .refcon>a{
   margin-left: 5px;
   color: black;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .refcon>a:hover{
@@ -560,7 +554,7 @@ font-style: italic;
 }
 
 .refGap{
-  margin-top:  12px;
+  margin-top:  14px;
 }
 
 /*-------------------------------------------------------------------------------*/
